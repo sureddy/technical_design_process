@@ -7,7 +7,7 @@ This work is licensed under the Creative Commons Attribution 4.0 License (CC-BY-
 
 # The problem
 
-As discussed in [Appendix A](#heading=h.88sxb7lelwsv), there are two broad categories of technical implementation: organic, evolved change and designed change. To scale as a company, we must move from a predominantly organic approach to a designed approach.
+As discussed in Appendix A, there are two broad categories of technical implementation: organic, evolved change and designed change. To scale as a company, we must move from a predominantly organic approach to a designed approach.
 
 Traditional design processes usually review only after completion of the full, detailed technical design document. This typically renders the review process moot since so much work has already been sunk into the project and, often, an actual implementation was built alongside the document itself. 
 
@@ -116,7 +116,7 @@ Finally, there will be times when the *why *is arbitrary: if PCI compliance dema
 
 The hardest part of expressing the *what* of a problem is knowing *which* problem to solve. This is a critical judgement call.
 
-One effective approach is to list a handful of candidates and then break down the assumptions behind each of them. Running systems are messy, especially when distributed, so the best problem to solve will typically have few optimistic assumptions about the world. The optimizations in [Appendix B](#heading=h.v4mmh7sjtcry) may also be helpful reality checks.
+One effective approach is to list a handful of candidates and then break down the assumptions behind each of them. Running systems are messy, especially when distributed, so the best problem to solve will typically have few optimistic assumptions about the world. The optimizations in Appendix B may also be helpful reality checks.
 
 For example, consider a site outage caused by loss of the link between our US and EU datacenters after a submarine volcano erupts and severs a primary trans-Atlantic fiber link. Which problem needs to be solved?
 
@@ -138,9 +138,9 @@ If you’re unable to separate the problem from your proposed solution, consider
 
 ## II. Solution Proposal document
 
-**_Deliverable: _***a completed proposal based on the **[Solution Proposal Templat*e](https://docs.google.com/document/d/1P8upq4Y0kstBXwKl0lBmL_g49ciouQkbJMu-VNVIXrs/edit?usp=sharing)*.*
+**_Deliverable: _***a completed proposal based on the [Solution Proposal Template](Solution_Proposal_Template.md)*.*
 
-Complete a Solution Proposal from the [Solution Proposal Template](https://docs.google.com/document/d/1P8upq4Y0kstBXwKl0lBmL_g49ciouQkbJMu-VNVIXrs/edit?usp=sharing), using your finished Problem Statement for the first section. The template is self-explanatory, but in broad strokes its sections are:
+Complete a Solution Proposal from the [Solution Proposal Template](Solution_Proposal_Template.md), using your finished Problem Statement for the first section. The template is self-explanatory, but in broad strokes its sections are:
 
 * **Problem Statement. **You’ve already finished this.
 
@@ -426,11 +426,11 @@ Continue cycling until you reach a break-point appropriate for review. Review sh
 
 #### Review
 
-Let your panel know where you’re at in the TDD and schedule a review. This review follows roughly the same process as [review of the Proposal](#heading=h.vt175wltekjb). Once again, the intent is to help the Designer make the very best possible decisions.
+Let your panel know where you’re at in the TDD and schedule a review. This review follows roughly the same process as review of the Proposal. Once again, the intent is to help the Designer make the very best possible decisions.
 
 Focus on missing details, structure, and broad issues with serious runtime implications. This review process is not a venue for bikeshedding; it exists to make sure the implementation works, accounts for operationalization and runtime questions, doesn’t paint future generations into a corner, and so on.
 
-[There’s always an exit hatch](#heading=h.bgmlf1z8064l), but the use of Solution Proposals ought to cull out most non-starters. While vetoes should be exceedingly rare at this stage, the process is the same.
+There’s always an exit hatch, but the use of Solution Proposals ought to cull out most non-starters. While vetoes should be exceedingly rare at this stage, the process is the same.
 
 #### Repeat
 
@@ -440,7 +440,7 @@ Some projects will require only a single TDD review while others may require man
 
 ### When to revisit the Solution Proposal
 
-If you realize the proposal you chose is not doable, [return to that step](#heading=h.o1csimhqfnc). Move the current solution to an alternative and mark it as rejected with a link to the TDD and an explanation of the blockers you ran into.
+If you realize the proposal you chose is not doable, return to that step. Move the current solution to an alternative and mark it as rejected with a link to the TDD and an explanation of the blockers you ran into.
 
 Do not throw good money after bad; the Solution Proposal is a lightweight document that is intended to catch rather coarse problems. There will inevitably be accepted Proposals that must be abandoned because subtler issues were discovered in the TDD step. **This is not a bad thing--they were still caught before moving to implementation.**
 
@@ -476,7 +476,7 @@ Alternatives play an important role keeping the solution proposal honest, comple
 
 If you’re faced with a set of equally crappy options, these strategies might help:
 
-* **Search for more alternatives.** Use [the above strategies](#heading=h.tuchcqi7moop) until you’re confident that you’ve got the best set of alternatives available to you.
+* **Search for more alternatives.** Use the above strategies until you’re confident that you’ve got the best set of alternatives available to you.
 
 * **Discuss with someone you trust.** Fresh eyes might see something you don’t.
 
