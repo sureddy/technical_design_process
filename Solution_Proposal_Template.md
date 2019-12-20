@@ -1,4 +1,4 @@
-#Solution Proposal Template
+# Solution Proposal Template
 
 Copyright SurveyMonkey Inc., 2019 This work is licensed under the Creative Commons Attribution 4.0 License (CC-BY-4.0). A copy of the license may be found at https://creativecommons.org/licenses/by/4.0/legalcode or in the LICENSE file accompanying this document.
 
